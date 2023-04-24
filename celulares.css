@@ -1,4 +1,4 @@
-@media all and (min-width: 370px){
+@media all and (min-width: 300px){
 
     *{
     padding: 0;
@@ -100,13 +100,11 @@ body{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 20px;
-
 }
+
 .ultimosLanzamientos h2{
     font-weight: bold;
 }
-
-
 
 .card{
     border: none;
@@ -115,12 +113,11 @@ body{
     text-align: center;
 }
 
-
 .card img{
     width: 150px;
     height: 150px;
-
 }
+
 .nuevo{
     border: solid;
     border-width: 1px;
