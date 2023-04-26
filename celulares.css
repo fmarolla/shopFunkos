@@ -136,10 +136,11 @@ body{
     margin-bottom: 0px;
 }
 
-.carousel-item {
+.active{
     display: flex !important;
     justify-content: center;
 }
+
 /* seccion Footer */
 
 #containerFooter{
