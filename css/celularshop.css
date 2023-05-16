@@ -1,0 +1,91 @@
+@media all and (min-width: 300px){
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    }
+
+body{
+    margin: 0;
+    background-color: #fff;
+    max-width: 100% !important;
+}
+
+/*  SECCION MENU */
+#navegador {
+    padding: 0px;
+}
+.container-fluid {
+    background-color: #313640;
+    color: #fff;
+}
+
+
+
+
+
+/* seccion coleccion SW */
+
+.containerMuñecosSW{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 250px 250px 250px;
+    row-gap: 30px;
+    text-align: center;
+}
+
+.containerMuñecosSW img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+/* seccion de filtros */
+#containerMain{
+    display: flex;
+    background-color: gray;
+}
+
+/* seccion Footer */
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#containerFooter{
+    background-color: #313640;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.footer-Nav{
+    text-align: center;
+}
+
+.menu-Footer a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu-Footer{
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    list-style: none;
+    text-align: initial;
+    
+}
+
+
+}

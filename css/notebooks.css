@@ -1,0 +1,90 @@
+@media all and (min-width: 768px){
+    
+    
+.muñecos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.muñecoColeccion img {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.descripcionMuñeco{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    border-radius: 20px;
+    padding: 10px 50px;
+    width: 100%;
+    height: 200px;
+    color: #FFDEE9;
+    color: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.textoMuñeco h4{
+    font-weight: bold;
+    color:#FFDEE9;
+}
+
+
+.verColeccion a {
+    border: solid;
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 17px;
+    padding: 6px 20px;
+    text-align: center;
+    width: 200px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

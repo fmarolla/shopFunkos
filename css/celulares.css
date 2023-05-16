@@ -7,7 +7,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
-html {
+html{
     max-width: 100% !important;
     overflow-x: hidden !important;
     }
@@ -17,14 +17,13 @@ body{
     background-color: #fff;
     max-width: 100% !important;
     overflow-x: hidden !important;
-
 }
 
 /*  SECCION MENU */
-#navegador {
+#navegador{
     padding: 0px;
 }
-.container-fluid {
+.container-fluid{
     background-color: #313640;
     color: #fff;
 }
@@ -32,7 +31,7 @@ body{
 /* SECCION BANNER */
 .banner{
     color: #fff;
-    background-image: url(./banner\ funkos.png);
+    background-image: url(../imagenes/banner\ funkos.png);
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -59,7 +58,7 @@ body{
     width: 200px;
     background-color: #ffffffac;
 }
-    
+
 /* seccion muñecos */
 #containerColecciones{
     display: flex;
@@ -73,7 +72,6 @@ body{
     width: 150px;
     height: 150px;
     margin-top: 50px;
-
 }
 
 .textoMuñeco h4{
@@ -143,13 +141,18 @@ body{
 }
 
 /* seccion Footer */
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 #containerFooter{
     background-color: #313640;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 50px;
 }
 
 .footer-Nav{
@@ -159,7 +162,6 @@ body{
 .menu-Footer a{
     text-decoration: none;
     color: #fff;
-    
 }
 
 .menu-Footer{
@@ -168,8 +170,6 @@ body{
     margin-bottom: 40px;
     list-style: none;
     text-align: initial;
-    
-
 }
 
 
